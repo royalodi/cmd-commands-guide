@@ -1,0 +1,16 @@
+## 🌱 Environment & Path Commands
+
+These commands help you view and modify environment variables, including the system PATH, which controls where the system looks for executables.
+
+| Command                                        | Description                                                   |
+|------------------------------------------------|---------------------------------------------------------------|
+| set                                            | Displays all environment variables                            |
+| set VARIABLE=value                             | Creates or modifies an environment variable                   |
+| setx VARIABLE "value"                          | Permanently sets environment variables (user or system level) |
+| echo %VARIABLE%                                | Displays the value of a specific environment variable         |
+| path                                           | Displays or sets the executable search path                   |
+| path C:\Tools;%PATH%                           | Adds `C:\Tools` to the beginning of the PATH variable         |
+| echo %PATH%                                    | Shows the current PATH environment variable                   |
+| refreshenv (requires external tool)            | Refreshes environment variables without                       |
+|                                                |  restarting CMD (from Chocolatey or other tools)              |
+
