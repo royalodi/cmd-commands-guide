@@ -1,0 +1,23 @@
+## 💾 Disk Management Commands
+
+Disk Management commands help you view, configure, and manage disk drives and partitions on your Windows system through the Command Prompt.
+
+| Command                    | Description                                                   |
+|----------------------------|---------------------------------------------------------------|
+| diskpart                   | Launches the Disk Partition tool for advanced disk management |
+| list disk                  | Lists all disks connected to the system                       |
+| select disk [number]       | Selects a disk to manage (replace [number] with disk ID)      |
+| clean                      | Removes all partitions and data from the selected disk        |
+| create partition primary   | Creates a primary partition on the selected disk              |
+| create partition extended  | Creates an extended partition                                 |
+| create partition logical   | Creates a logical partition inside an extended partition      |
+| format fs=ntfs quick       | Formats the selected partition with NTFS file system (quick)  |
+| assign letter=[X]          | Assigns a drive letter (replace [X] with the desired letter)  |
+| active                     | Marks the selected partition as active (bootable)             |
+| detail disk                | Shows detailed information about the selected disk            |
+| detail partition           | Shows details of the selected partition                       |
+| list volume                | Lists all volumes (partitions with drive letters)             |
+| select volume [number]     | Selects a volume to manage                                    |
+| shrink desired=[size]      | Shrinks the selected volume by specified size (MB)            |
+| extend size=[size]         | Extends the selected volume by specified size (MB)            |
+
