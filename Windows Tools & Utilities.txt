@@ -1,0 +1,22 @@
+## 🧰 Windows Tools & Utilities Commands
+
+This section lists commands that open various built-in Windows utilities and tools, allowing quick access to system management and configuration interfaces directly from the Command Prompt.
+
+| Command         | Description                                                  |
+|-----------------|--------------------------------------------------------------|
+| control         | Opens the Control Panel                                      |
+| msconfig        | Opens the System Configuration utility                       |
+| appwiz.cpl      | Opens the Programs and Features (Add/Remove Programs) window |
+| compmgmt.msc    | Opens Computer Management console                            |
+| eventvwr        | Opens Event Viewer                                           |
+| devmgmt.msc     | Opens Device Manager                                         |
+| regedit         | Opens Registry Editor                                        |
+| services.msc    | Opens Services management console                            |
+| taskmgr         | Opens Task Manager                                           |
+| perfmon         | Opens Performance Monitor                                    |
+| dxdiag          | Opens DirectX Diagnostic Tool                                |
+| cleanmgr        | Opens Disk Cleanup utility                                   |
+| sysdm.cpl       | Opens System Properties dialog                               |
+| firewall.cpl    | Opens Windows Firewall settings                              |
+| powercfg.cpl    | Opens Power Options                                          |
+
