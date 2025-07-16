@@ -1,0 +1,17 @@
+## 🧬 Registry Commands
+
+These commands allow you to view, query, add, modify, and delete entries in the Windows Registry from the Command Prompt.
+
+| Command                                           | Description                                                  |
+|---------------------------------------------------|--------------------------------------------------------------|
+| regedit                                           | Opens the Registry Editor GUI                                |
+| reg query <key>                                   | Queries a registry key or value                              |
+| reg add <key> /v <value> /t <type> /d <data> /f   | Adds or modifies a registry value                            |
+| reg delete <key> /v <value> /f                    | Deletes a registry value                                     |
+| reg export <key> <filename>                       | Exports registry keys to a file                              |
+| reg import <filename>                             | Imports registry keys from a file                            |
+| reg save <key> <filename>                         | Saves a copy of a registry key                               |
+| reg restore <key> <filename>                      | Restores a registry key from a saved file                    |
+| reg load <key> <filename>                         | Loads a registry hive into a key                             |
+| reg unload <key>                                  | Unloads a registry hive                                      |
+
