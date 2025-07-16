@@ -1,0 +1,23 @@
+## 🛠️ Developer Tools Commands
+
+This section lists commands useful for developers working in Windows environments, including build tools, version control, and scripting utilities accessible via Command Prompt.
+
+| Command                    | Description                                                  |
+|----------------------------|--------------------------------------------------------------|
+| git --version              | Checks the installed Git version                             |
+| git clone [url]            | Clones a remote Git repository                               |
+| git status                 | Shows the status of the current Git repository               |
+| git add [file]             | Stages file(s) for commit                                    |
+| git commit -m "message"    | Commits staged changes with a message                        |
+| git push                   | Pushes commits to the remote repository                      |
+| git pull                   | Fetches and merges changes from the remote repository        |
+| node --version             | Checks the installed Node.js version                         |
+| npm install                | Installs Node.js packages listed in package.json             |
+| npm run [script]           | Runs an npm script defined in package.json                   |
+| javac [file.java]          | Compiles a Java source file                                  |
+| java [className]           | Runs a compiled Java program                                 |
+| python --version           | Checks the installed Python version                          |
+| python [file.py]           | Runs a Python script                                         |
+| dotnet --version           | Checks the installed .NET SDK version                        |
+| dotnet build               | Builds a .NET project                                        |
+
