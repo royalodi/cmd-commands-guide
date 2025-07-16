@@ -1,0 +1,19 @@
+## 👤 User Management Commands
+
+User Management commands allow you to create, modify, delete, and view user accounts on a Windows system via the Command Prompt. These commands are useful for administrators managing local users and groups.
+
+| Command                                       | Description                                                  |
+|-----------------------------------------------|--------------------------------------------------------------|
+| net user                                      | Lists all user accounts on the system                        |
+| net user username password /add               | Creates a new user with the specified password               |
+| net user username /delete                     | Deletes the specified user account                           |
+| net user username *                           | Prompts to change the password for the specified user        |
+| net user username /active:no                  | Disables the specified user account                          |
+| net user username /active:yes                 | Enables the specified user account                           |
+| net localgroup                                | Lists all local groups                                       |
+| net localgroup groupname username /add        | Adds a user to a local group                                 |
+| net localgroup groupname username /delete     | Removes a user from a local group                            |
+| net accounts                                  | Displays password and login policy settings                  |
+| net accounts /maxpwage:unlimited              | Sets password to never expire                                |
+| net user username /passwordchg:no             | Prevents user from changing their password                   |
+
