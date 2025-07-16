@@ -1,0 +1,33 @@
+## 📁 File & Directory Commands
+
+These commands help you navigate the file system, manage files and folders, and perform basic file operations using the Windows Command Prompt. Useful for organizing data, copying backups, and automating repetitive file-related tasks.
+
+| Command                                     | Description                                                  |
+|---------------------------------------------|--------------------------------------------------------------|
+| dir                                         | Lists files and folders in the current directory             |
+| dir /p                                      | Lists directory contents page by page                        |
+| dir /w                                      | Lists directory contents in wide format                      |
+| cd foldername                               | Changes to the specified directory                           |
+| cd ..                                       | Moves one level up to the parent directory                   |
+| cd /                                        | Changes to the root directory                                |
+| mkdir NewFolder                             | Creates a new folder                                         |
+| md NewFolder                                | Same as mkdir (alternate syntax)                             |
+| rmdir FolderName                            | Removes a folder (only if empty)                             |
+| rd FolderName                               | Same as rmdir                                                |
+| del filename.txt                            | Deletes a file                                               |
+| del *.txt                                   | Deletes all `.txt` files in the folder                       |
+| erase filename.txt                          | Same as del                                                  |
+| ren oldname.txt newname.txt                 | Renames a file or folder                                     |
+| move filename.txt D:\Backup                 | Moves file to another location                               |
+| copy file.txt D:\Backup                     | Copies file to another location                              |
+| xcopy C:\Source D:\Backup /s /e             | Copies folders and subfolders (including empty ones)         |
+| robocopy C:\Source D:\Dest /mir             | Mirrors a folder structure (robust copy tool)                |
+| attrib +h secret.txt                        | Hides a file                                                 |
+| attrib -h secret.txt                        | Unhides a file                                               |
+| tree                                        | Displays folder structure in a tree view                    |
+| fc file1.txt file2.txt                      | Compares two text files and shows differences                |
+| type filename.txt                           | Displays the contents of a text file                         |
+| copy con filename.txt                       | Creates a new file via console (press Ctrl+Z to finish)      |
+| echo Hello > file.txt                       | Creates a file with text ("Hello") inside it                |
+| echo. > file.txt                            | Creates a blank file                                         |
+
