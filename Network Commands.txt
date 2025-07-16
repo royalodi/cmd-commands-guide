@@ -1,0 +1,22 @@
+## 🌐 Network Commands
+
+Network commands help you diagnose, configure, and monitor network connections and settings from the command line. These commands are essential for troubleshooting connectivity issues and managing network configurations.
+
+| Command                        | Description                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| ipconfig                       | Displays current IP address, subnet mask, and gateway       |
+| ipconfig /all                  | Shows detailed IP configuration including DNS and MAC       |
+| ipconfig /release              | Releases the current DHCP IP address                        |
+| ipconfig /renew                | Renews the DHCP IP address                                  |
+| ping [hostname/IP]             | Tests connectivity to another host by sending ICMP packets  |
+| tracert [hostname/IP]          | Traces the route packets take to reach the host             |
+| netstat -an                    | Lists all active connections and listening ports            |
+| netstat -ab                    | Shows executables involved in creating each connection      |
+| nslookup [domain]              | Queries DNS to obtain domain name or IP address mapping     |
+| arp -a                         | Displays the ARP cache (IP to MAC address mappings)         |
+| route print                    | Displays the routing table                                  |
+| netsh wlan show profiles       | Lists all saved Wi-Fi profiles                              |
+| netsh wlan show interfaces     | Displays Wi-Fi adapter status and details                   |
+| netsh interface ip show config | Shows IP configuration for all interfaces                   |
+| telnet [hostname] [port]       | Connects to a host on a specific TCP port (Telnet client)   |
+
