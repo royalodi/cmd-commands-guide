@@ -1,0 +1,16 @@
+## 🔋 Power Management Commands
+
+Power management commands allow you to control shutdowns, restarts, sleep, and battery reporting from the Command Prompt.
+
+| Command                               | Description                                              |
+|---------------------------------------|----------------------------------------------------------|
+| shutdown /s /t 0                      | Shuts down the computer immediately                      |
+| shutdown /r /t 0                      | Restarts the computer immediately                        |
+| shutdown /l                           | Logs off the current user                                |
+| shutdown /a                           | Aborts a system shutdown or restart                      |
+| powercfg /batteryreport               | Generates a detailed battery usage report (HTML file)    |
+| powercfg /energy                      | Analyzes system energy efficiency and generates a report |
+| powercfg /hibernate on                | Enables hibernation                                      |
+| powercfg /hibernate off               | Disables hibernation                                     |
+| powercfg /sleepstudy                  | Generates a report on system sleep behavior              |
+
