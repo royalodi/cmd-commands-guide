@@ -1,0 +1,29 @@
+## 🧱 Basic CMD Commands
+
+A list of commonly used basic Command Prompt (CMD) commands in Windows.
+
+| Command                          | Description                                                |
+|----------------------------------|------------------------------------------------------------|
+| help                             | Displays help for available commands                       |
+| cls                              | Clears the screen                                          |
+| exit                             | Closes the Command Prompt                                  |
+| echo Hello                       | Prints a message (e.g., Hello)                             |
+| title My Window                  | Sets the title of the CMD window                           |
+| color 0A                         | Changes text color (e.g., green text on black background)  |
+| ver                              | Shows the Windows version                                  |
+| date                             | Displays or sets the current date                          |
+| time                             | Displays or sets the system time                           |
+| pause                            | Pauses the execution of a batch file until user input      |
+| shutdown /s /t 0                 | Shuts down the computer immediately                        |
+| shutdown /r /t 0                 | Restarts the computer immediately                          |
+| shutdown /a                      | Aborts a shutdown in progress                              |
+| whoami                           | Displays the current logged-in username                    |
+| hostname                         | Shows the computer name                                    |
+| assoc                            | Displays or modifies file extension associations           |
+| prompt                           | Changes the command prompt appearance                      |
+| set                              | Displays, sets, or removes environment variables           |
+| tasklist                         | Lists all running processes                                |
+| taskkill /F /IM notepad.exe      | Force closes a running program (e.g., Notepad)             |
+| start notepad                    | Opens an application from CMD (e.g., Notepad)              |
+| cmd                              | Opens a new CMD window                                     |
+| help [command]                   | Shows help for a specific command (e.g., help dir)         |
