@@ -1,0 +1,22 @@
+## ⚙️ System Commands
+
+System commands allow you to gather detailed information about your Windows system, manage processes, perform system scans, and control system-level operations.
+
+| Command                          | Description                                                  |
+|----------------------------------|--------------------------------------------------------------|
+| systeminfo                       | Displays detailed configuration information about the system |
+| hostname                         | Shows the computer’s network name                            |
+| tasklist                         | Lists all running processes                                  |
+| taskkill /F /IM processname.exe  | Forces termination of a specified process                    |
+| sfc /scannow                     | Scans and repairs protected system files                     |
+| chkdsk /f                        | Checks disk for errors and fixes them                        |
+| msconfig                         | Opens System Configuration utility                           |
+| driverquery                      | Lists installed device drivers                               |
+| gpupdate /force                  | Refreshes local and Active Directory Group Policy settings   |
+| wmic os get caption,version      | Displays OS name and version                                 |
+| ver                              | Shows Windows version                                        |
+| shutdown /s /t 0                 | Shuts down the computer immediately                          |
+| shutdown /r /t 0                 | Restarts the computer immediately                            |
+| shutdown /a                      | Aborts a system shutdown                                     |
+| systemreset                      | Opens Windows Reset/Refresh options (Windows 10+)            |
+
