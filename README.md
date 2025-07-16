@@ -1,2 +1,26 @@
-# cmd-commands-guide
-A categorized list of essential Windows CMD commands with clear descriptions. Useful for students, developers, and system admins to manage files, users, networks, and more. Easy to read, update, and share. Ideal for quick reference and GitHub documentation.
+# 💻 CMD Commands Guide
+
+A categorized and easy-to-follow list of useful Windows CMD commands with descriptions.
+
+## 📁 Categories
+- Basic Commands
+- File & Directory Commands
+- System Commands
+- Network Commands
+- User Management
+- Disk Management
+- Windows Tools & Utilities
+- Power Management
+- Environment & Path
+- Registry Commands
+- Developer Tools
+- Advanced Security
+
+## 🧑‍💻 Who This Is For
+Ideal for:
+- Students
+- Developers
+- System Administrators
+
+## 📄 License
+MIT License
