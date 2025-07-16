@@ -1,0 +1,21 @@
+## 🔒 Advanced Security Commands
+
+These commands help manage advanced security settings, permissions, and firewall configurations from the Command Prompt.
+
+| Command                                        | Description                                               |
+|------------------------------------------------|-----------------------------------------------------------|
+| net user username /active:no                   | Disables a user account                                   |
+| net user username /active:yes                  | Enables a user account                                    |
+| net user username /passwordchg:no              | Prevents user from changing their password                |
+| net localgroup administrators username /add    | Adds a user to the Administrators group                   |
+| net localgroup administrators username /delete | Removes a user from the Administrators group              |
+| icacls "C:\Folder" /grant User:F               | Grants Full control permission to a user on a folder      |
+| icacls "C:\Folder" /deny User:F                | Denies Full control permission to a user on a folder      |
+| icacls "C:\Folder" /remove User                | Removes all permissions for a user on a folder            |
+| netsh advfirewall set allprofiles state on     | Enables Windows Firewall for all profiles                 |
+| netsh advfirewall set allprofiles state off    | Disables Windows Firewall for all profiles                |
+| netsh advfirewall firewall add rule name="Allow SSH" dir=in action=allow protocol=TCP localport=22         | 
+                                                 |Adds a firewall rule to allow SSH on port 22               |
+| cipher /e /s:C:\Folder                         | Encrypts files in the specified folder                    |
+| cipher /d /s:C:\Folder                         | Decrypts files in the specified folder                    |
+
